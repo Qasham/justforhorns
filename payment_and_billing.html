@@ -1,1 +1,521 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"/><title>Dan Turcan | Payment and Billing</title><meta name="viewport" content="width=device-width,initial-scale=1"/><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.5.55/css/materialdesignicons.min.css" integrity="sha512-fwJwcnaCDZRE9ZXt3Gevw/0WLt8A4tH+5hb1v5ps08P12o4S4BoV0tqrAa71uyclLRQvg6YMKw2RoeqTqhQBhA==" crossorigin="anonymous"/><meta name="theme-color" content="#4285f5"><link rel="icon" href="favicon.ico"><link href="styles/style.d4b19d33ff98ca4058cc.css" rel="stylesheet"></head><body class="scrollbar-style"><!-- #region    =========================================== Page Loader - Start =========================================== --><!-- #endregion =========================================== Page Loader - End =========================================== --><!-- #region    =========================================== Header - Start =========================================== --><header id="header" class="header"><div class="container"><div class="header__wrapper display--flex justify-content--between align-items--center flex-wrap--wrap"><div class="header__brand-logo"><a href="index.html"><span>Dan Turcan</span></a></div><div class="header__menu-icons-wrapper"><a href="javascript:void(0)" class="header__shopinng-bag-icon js-show-shopping-modal"><span class="shopping-bag-item-count">2 </span><i class="mdi mdi-cart icon-style"></i></a><div class="header__menu-icon js-toggle-menu"><span class="line"></span> <span class="line"></span> <span class="line"></span></div></div><nav class="header__nav js-nav-menu"><ul class="header__nav-list"><li class="header__nav-item"><a class="header__nav-link" href="works.html">Works</a></li><li class="header__nav-item"><a class="header__nav-link" href="about.html">About</a></li><li class="header__nav-item"><a class="header__nav-link" href="contact.html">Contact</a></li><li class="header__nav-item display-md--none"><a class="header__nav-link header__nav-link--has-icon js-show-shopping-modal" href="javascript:void(0)"><div class="shopping-bag-item-count">2</div><i class="mdi mdi-cart icon-style"></i></a></li><li class="header__nav-item"><a class="header__nav-link active" href="user_account_information.html">MY ACCOUNT</a></li></ul></nav><div id="shopping-bag-modal" class="custom-dropdown"><div class="custom-dropdown__header display--flex align-items--center justify-content--between"><h4 class="custom-dropdown__title">My shopping bag</h4><button class="custom-dropdown__close-btn no-appearance js-close-shopping-modal"><i class="mdi mdi-close icon-style"></i></button></div><div class="custom-dropdown__body scrollbar-style"><ul class="product-list product-list--for-dropdown"><li class="product-list__item"><a href="product_detail.html"><div class="product-list__item-left"><img class="img-100" src="images/product4.png" alt="product"></div><div class="product-list__item-right"><h5 class="product-list__item-name">Fantasie über Themen aus Giuseppe Verdis Rigoletto</h5><div class="product-list__item-summary"><div class="product-list__item-cost-info"><div class="product-list__item-quantity">Quantity: <span>1</span></div><span class="product-list__item-price font-weight--600">€24.9</span></div></div></div></a></li><li class="product-list__item"><a href="product_detail.html"><div class="product-list__item-left"><img class="img-100" src="images/product4.png" alt="product"></div><div class="product-list__item-right"><h5 class="product-list__item-name">Fantasie über Themen aus Giuseppe Verdis Rigoletto</h5><div class="product-list__item-summary"><div class="product-list__item-cost-info"><div class="product-list__item-quantity">Quantity: <span>1</span></div><span class="product-list__item-price font-weight--600">€24.9</span></div></div></div></a></li><li class="product-list__item"><a href="product_detail.html"><div class="product-list__item-left"><img class="img-100" src="images/product4.png" alt="product"></div><div class="product-list__item-right"><h5 class="product-list__item-name">Fantasie über Themen aus Giuseppe Verdis Rigoletto</h5><div class="product-list__item-summary"><div class="product-list__item-cost-info"><div class="product-list__item-quantity">Quantity: <span>1</span></div><span class="product-list__item-price font-weight--600">€24.9</span></div></div></div></a></li></ul></div><div class="custom-dropdown__footer"><div class="custom-dropdown__total-cost-info font-weight--600 text-transform--uppercase"><span>Total</span> € 24.9</div><div class="custom-dropdown__actions-wrapper"><a href="shopping_bag.html" class="btn btn--brand btn--outline mr--8">View bag</a> <a href="payment_and_billing.html" class="btn btn--brand">Checkout</a></div></div></div></div></div></header><div class="bg-overlay"></div><!-- #endregion =========================================== Header - End =========================================== --><main class="main"><!-- #region    =========================================== Payment and Billing Section - Start =========================================== --><section class="payment-and-billing-section"><div class="breadcrumb"><div class="container"><ul class="breadcrumb__list hide-scrollbar"><li class="breadcrumb__item"><a href="index.html" class="breadcrumb__link">Works</a></li><li class="breadcrumb__item"><a href="about.html" class="breadcrumb__link">Fantasie über Themen aus Giuseppe Verdis Rigoletto</a></li><li class="breadcrumb__item"><a href="contact.html" class="breadcrumb__link">Shopping Bag</a></li><li class="breadcrumb__item active">Payment and Billing</li></ul></div></div><div class="container"><div class="section-top mx--auto"><h2 class="section-top__title text-transform--uppercase">Address Information</h2></div><div class="row"><div class="col-lg-6"><div class="payment-and-billing-section__form-wrapper"><form><div id="shippingAddress" class="row payment-and-billing-section__shipping-address"><div class="col-lg-12"><h2 class="form-title mb--32 font-family--2 font-weight--bold">Shipping Address</h2></div><div class="col-lg-6"><div class="form-group"><label class="form-group__label required" for="firstname">First Name</label><div class="input-group"><input value="Gasham" required class="form-group__form-control input-style" id="firstname"></div></div></div><div class="col-lg-6"><div class="form-group"><label class="form-group__label required" for="lastname">Last Name</label><div class="input-group"><input value="Guluzada" required class="form-group__form-control input-style" id="lastname"></div></div></div><div class="col-lg-12"><div class="form-group"><label class="form-group__label required" for="country">Country</label><div class="input-group"><div class="form-group__form-select-control"><select class="js-choice"><option value="Azerbaijan">Azerbaijan</option><option value="Belgium">Belgium</option><option value="Brazil">Brazil</option><option value="Greece">Greece</option><option value="Mexico">Mexico</option><option value="New Zealand">New Zealand</option><option value="Russia">Russia</option><option value="Turkey">Turkey</option></select></div></div></div></div><div class="col-lg-12"><div class="form-group"><label class="form-group__label required" for="address1">Address Line 1</label><div class="input-group"><input placeholder="Street , Address , Company Name" required class="form-group__form-control input-style" id="address1"></div></div></div><div class="col-lg-12"><div class="form-group"><label class="form-group__label" for="address2">Address Line 2</label><div class="input-group"><input placeholder="Apartment, Suite, Unit, Building, Floor, etc." required class="form-group__form-control input-style" id="address2"></div></div></div><div class="col-lg-6"><div class="form-group"><label class="form-group__label" for="zipCode">Post / ZIP Code</label><div class="input-group"><input placeholder="AZE" required class="form-group__form-control input-style" id="zipCode"></div></div></div><div class="col-lg-6"><div class="form-group"><label class="form-group__label" for="city">City</label><div class="input-group"><input placeholder="Baku" required class="form-group__form-control input-style" id="city"></div></div></div><div class="col-lg-12"><div class="form-group"><label class="form-group__label required" for="phonenumber">Phone Number:</label><div class="input-group"><div class="form-group__form-select-control phone-control"><select name="phoneCode" class="js-choice"><option value="+93">Afghanistan +93</option><option value="+355">Albania +355</option><option value="+213">Algeria +213</option><option value="+1684">American Samoa +1684</option><option value="+234">Brasil +234</option><option value="+994" selected="selected">Azerbaijan +994</option></select> <input name="phoneNumber" maxlength="9" class="phone-input" placeholder="51 760 31 81" id="phonenumber"></div></div></div></div></div><div id="billingAddress" class="row payment-and-billing-section__billing-address js-billing-address"><div class="col-lg-12"><h2 class="form-title mb--32 font-family--2 font-weight--bold">Billing Address</h2></div><div class="col-lg-6"><div class="form-group"><label class="form-group__label required" for="firstname2">First Name</label><div class="input-group"><input value="Gasham" required class="form-group__form-control input-style" id="firstname2"></div></div></div><div class="col-lg-6"><div class="form-group"><label class="form-group__label required" for="lastname2">Last Name</label><div class="input-group"><input value="Guluzada" required class="form-group__form-control input-style" id="lastname2"></div></div></div><div class="col-lg-12"><div class="form-group"><label class="form-group__label required" for="country2">Country</label><div class="input-group"><div class="form-group__form-select-control"><select class="js-choice"><option value="Azerbaijan">Azerbaijan</option><option value="Belgium">Belgium</option><option value="Brazil">Brazil</option><option value="Greece">Greece</option><option value="Mexico">Mexico</option><option value="New Zealand">New Zealand</option><option value="Russia">Russia</option><option value="Turkey">Turkey</option></select></div></div></div></div><div class="col-lg-12"><div class="form-group"><label class="form-group__label required" for="address3">Address Line 1</label><div class="input-group"><input placeholder="Street , Address , Company Name" required class="form-group__form-control input-style" id="address3"></div></div></div><div class="col-lg-12"><div class="form-group"><label class="form-group__label" for="address4">Address Line 2</label><div class="input-group"><input placeholder="Apartment, Suite, Unit, Building, Floor, etc." required class="form-group__form-control input-style" id="address4"></div></div></div><div class="col-lg-6"><div class="form-group"><label class="form-group__label" for="zipCode2">Post / ZIP Code</label><div class="input-group"><input placeholder="AZE" required class="form-group__form-control input-style" id="zipCode2"></div></div></div><div class="col-lg-6"><div class="form-group"><label class="form-group__label" for="city2">City</label><div class="input-group"><input placeholder="Baku" required class="form-group__form-control input-style" id="city2"></div></div></div><div class="col-lg-12"><div class="form-group"><label class="form-group__label required" for="phonenumber2">Phone Number:</label><div class="input-group"><div class="form-group__form-select-control phone-control"><select name="phoneCode" class="js-choice"><option value="+93">Afghanistan +93</option><option value="+355">Albania +355</option><option value="+213">Algeria +213</option><option value="+1684">American Samoa +1684</option><option value="+234">Brasil +234</option><option value="+994" selected="selected">Azerbaijan +994</option></select> <input name="phoneNumber" maxlength="9" class="phone-input" placeholder="51 760 31 81" id="phonenumber2"></div></div></div></div></div><div class="row"><div class="col-lg-12"><div class="form-group"><div class="input-group"><label class="form-group__checkbox" for="isSame"><input checked="checked" class="js-billing-address-checkbox" id="isSame" type="checkbox"> <span class="checkbox-control"></span> <span class="checkbox-label">Billing Address same as Shipping Address</span></label></div></div></div><div class="col-lg-12"><div class="form-group"><a href="review_and_pay.html" class="btn btn--brand btn--block btn--fs-16 btn--48">Review and Pay</a></div></div></div></form></div></div><div class="col-lg-5 offset-lg-1"><div class="shopping-bag-card payment-and-billing-section__order-summary"><div class="shopping-bag-card__header display--flex justify-content--between align-items--center"><h4 class="shopping-bag-card__title font-weight--600 font-family--1">YOUR ORDER</h4><p class="shopping-bag-card__items-count font-family--2 font-weight--500">2 items in your bag</p></div><div class="shopping-bag-card__body scrollbar-style"><ul class="product-list"><li class="product-list__item"><a href="works.html"><div class="product-list__item-left"><img class="img-100" src="images/product4.png" alt="product"></div><div class="product-list__item-right"><h5 class="product-list__item-name">Fantasie über Themen aus Giuseppe Verdis Rigoletto</h5><div class="product-list__item-summary"><div class="product-list__item-type">Printing</div><div class="product-list__item-cost-info"><div class="product-list__item-price-and-quantity">Quantity: <span class="product-list__item-quantity">1</span> x <span class="product-list__item-price">€24.9</span></div><span class="product-list__item-total-cost text-transform--uppercase font-weight--600">TOTAL €24.9</span></div></div></div></a></li><li class="product-list__item"><a href="works.html"><div class="product-list__item-left"><img class="img-100" src="images/product4.png" alt="product"></div><div class="product-list__item-right"><h5 class="product-list__item-name">Fantasie über Themen aus Giuseppe Verdis Rigoletto</h5><div class="product-list__item-summary"><div class="product-list__item-type">Printing</div><div class="product-list__item-cost-info"><div class="product-list__item-price-and-quantity">Quantity: <span class="product-list__item-quantity">1</span> x <span class="product-list__item-price">€24.9</span></div><span class="product-list__item-total-cost text-transform--uppercase font-weight--600">TOTAL €24.9</span></div></div></div></a></li></ul></div><div class="shopping-bag-card__footer display--flex align-items--center"><p class="shopping-bag-card__total-cost-info text-transform--uppercase"><span>Total COST:</span> <strong class="total-cost text-transform--uppercase"><span>€ 24.9</span></strong></p></div></div></div></div></div></section><!-- #endregion =========================================== Payment and Billing Section - End =========================================== --></main><!-- #region    =========================================== Footer - Start =========================================== --><footer class="footer footer--dark"><div class="footer__top"><div class="container"><div class="section-top"><h2 class="section-top__title text-transform--uppercase">Latest news</h2></div><div class="row"><div class="col-lg-6"><div class="footer__left"><p class="footer__content text-transform--uppercase">Be the first to know about new products, exclusive offers and giveaways</p></div></div><div class="col-lg-6"><div class="footer__right"><form class="footer__form" autocomplete="off" spellcheck="false"><div class="form-group mb--0"><div class="input-group input-group--inside-label border-bottom--0"><input required type="name" class="form-group__form-control input-style" id="name"> <label class="form-group__label" for="name">Name:</label></div></div><div class="form-group"><div class="input-group input-group--inside-label"><input required type="email" class="form-group__form-control input-style" id="email"> <label class="form-group__label" for="email">Email:</label></div></div><div class="form-group"><button type="submit" class="btn btn--brand btn--block btn--fs-16 btn--56 border">Submit</button></div></form></div></div></div></div></div><div class="footer__bottom"><div class="container"><ul class="footer__list footer__list--contact display--flex justify-content--center flex-wrap--wrap"><li><a target="_blank" rel="noo" href="mailto:music@danturCan.com">music@danturCan.com</a></li><li><a target="_blank" rel="noo" href="tel:+40 (31) 229 74 31">+40 (31) 229 74 31</a></li><li><a href="javascript:void(0);">Strada Popa Soare 31-23 București 030167, Romania</a></li><li><a href="javascript:void(0);">All rights reserved, 2020 danturCan ©</a></li></ul><ul class="footer__list footer__list--social display--flex justify-content--center flex-wrap--wrap"><li><a target="_blank" rel="noopener noreferrer" href="../components.html">INSTAGRAM</a></li><li><a target="_blank" rel="noopener noreferrer" href="../components.html">FACEBOOK</a></li><li><a target="_blank" rel="noopener noreferrer" href="../components.html">SOUNDCLOUD</a></li></ul></div></div></footer><!-- #endregion =========================================== Footer - End =========================================== --><script defer="defer" src="js/main.3b6d856a7a59f7a2912d.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dan Turcan | Payment and Billing</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.5.55/css/materialdesignicons.min.css"
+        integrity="sha512-fwJwcnaCDZRE9ZXt3Gevw/0WLt8A4tH+5hb1v5ps08P12o4S4BoV0tqrAa71uyclLRQvg6YMKw2RoeqTqhQBhA=="
+        crossorigin="anonymous">
+
+    <meta name="theme-color" content="#f5f2f0">
+    <link rel="icon" href="favicon.ico">
+    <link href="styles/style.109bb6786e0629806238.css" rel="stylesheet">
+</head>
+
+<body class="scrollbar-style">
+
+    <!-- #region    =========================================== Header - Start =========================================== -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="header__wrapper display--flex justify-content--between align-items--center flex-wrap--wrap">
+                <div class="header__brand-logo"> <a href="index.html"> <span>Dan Turcan</span> </a> </div>
+                <div class="header__menu-icons-wrapper"> <a href="javascript:void(0)"
+                        class="header__shopinng-bag-icon js-show-shopping-modal"> <span class="shopping-bag-item-count">
+                            2 </span> <i class="mdi mdi-cart icon-style"></i> </a>
+                    <div class="header__menu-icon js-toggle-menu"> <span class="line"></span> <span class="line"></span>
+                        <span class="line"></span> </div>
+                </div>
+                <nav class="header__nav js-nav-menu">
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item"><a class="header__nav-link" href="works.html">Works </a></li>
+                        <li class="header__nav-item"><a class="header__nav-link" href="about.html">About</a></li>
+                        <li class="header__nav-item"><a class="header__nav-link" href="contact.html">Contact</a></li>
+                        <li class="header__nav-item display-md--none"><a
+                                class="header__nav-link header__nav-link--has-icon js-show-shopping-modal"
+                                href="javascript:void(0)">
+                                <span class="shopping-bag-item-count"> 2 </span> <i class="mdi mdi-cart icon-style"></i>
+                            </a></li>
+                        <li class="header__nav-item"><a class="header__nav-link "
+                                href="user_account_information.html">MY ACCOUNT </a></li>
+                    </ul>
+                </nav>
+                <div id="shopping-bag-modal" class="custom-dropdown">
+                    <div class="custom-dropdown__header display--flex align-items--center justify-content--between">
+                        <h4 class="custom-dropdown__title">My shopping bag</h4> <button
+                            class="custom-dropdown__close-btn no-appearance js-close-shopping-modal"> <i
+                                class="mdi mdi-close icon-style"></i> </button>
+                    </div>
+                    <div class="custom-dropdown__body scrollbar-style">
+                        <ul class="product-list product-list--for-dropdown">
+                            <li class="product-list__item"> <a href="product_detail.html">
+                                    <div class="product-list__item-left"> <img class="img-100" src="images/product4.png"
+                                            alt="product"> </div>
+                                    <div class="product-list__item-right">
+                                        <h5 class="product-list__item-name">Fantasie über Themen aus Giuseppe Verdis
+                                            Rigoletto</h5>
+                                        <div class="product-list__item-summary">
+                                            <div class="product-list__item-cost-info">
+                                                <div class="product-list__item-quantity">Quantity: <span>1</span></div>
+                                                <span class="product-list__item-price font-weight--600">€24.9</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a> </li>
+                            <li class="product-list__item"> <a href="product_detail.html">
+                                    <div class="product-list__item-left"> <img class="img-100" src="images/product4.png"
+                                            alt="product"> </div>
+                                    <div class="product-list__item-right">
+                                        <h5 class="product-list__item-name">Fantasie über Themen aus Giuseppe Verdis
+                                            Rigoletto</h5>
+                                        <div class="product-list__item-summary">
+                                            <div class="product-list__item-cost-info">
+                                                <div class="product-list__item-quantity">Quantity: <span>1</span></div>
+                                                <span class="product-list__item-price font-weight--600">€24.9</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a> </li>
+                            <li class="product-list__item"> <a href="product_detail.html">
+                                    <div class="product-list__item-left"> <img class="img-100" src="images/product4.png"
+                                            alt="product"> </div>
+                                    <div class="product-list__item-right">
+                                        <h5 class="product-list__item-name">Fantasie über Themen aus Giuseppe Verdis
+                                            Rigoletto</h5>
+                                        <div class="product-list__item-summary">
+                                            <div class="product-list__item-cost-info">
+                                                <div class="product-list__item-quantity">Quantity: <span>1</span></div>
+                                                <span class="product-list__item-price font-weight--600">€24.9</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a> </li>
+                        </ul>
+                    </div>
+                    <div class="custom-dropdown__footer">
+                        <div class="custom-dropdown__total-cost-info font-weight--600 text-transform--uppercase">
+                            <span>Total</span> € 24.9 </div>
+                        <div class="custom-dropdown__actions-wrapper"> <a href="shopping_bag.html"
+                                class="btn btn--brand btn--outline mr--8">View bag</a> <a
+                                href="payment_and_billing.html" class="btn btn--brand">Checkout</a> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="bg-overlay"></div>
+    <!-- #endregion =========================================== Header - End =========================================== -->
+
+    <main class="main">
+        <!-- #region    =========================================== Payment and Billing Section - Start =========================================== -->
+        <section class="payment-and-billing-section">
+            <div class="breadcrumb">
+                <div class="container">
+                    <ul class="breadcrumb__list hide-scrollbar">
+                        <li class="breadcrumb__item">
+                            <a href="index.html" class="breadcrumb__link">Works</a>
+                        </li>
+                        <li class="breadcrumb__item">
+                            <a href="about.html" class="breadcrumb__link">Fantasie über Themen aus Giuseppe Verdis
+                                Rigoletto</a>
+                        </li>
+                        <li class="breadcrumb__item">
+                            <a href="contact.html" class="breadcrumb__link">Shopping Bag</a>
+                        </li>
+                        <li class="breadcrumb__item active">
+                            Payment and Billing
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container">
+                <div class="section-top mx--auto">
+                    <h2 class="section-top__title text-transform--uppercase">Address Information</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="payment-and-billing-section__form-wrapper">
+                            <form>
+                                <div id="shippingAddress" class="row payment-and-billing-section__shipping-address">
+                                    <div class="col-lg-12">
+                                        <h2 class="form-title mb--32 font-family--2 font-weight--bold">
+                                            Shipping Address
+                                        </h2>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label class="form-group__label required" for="firstname">First Name</label>
+                                            <div class="input-group">
+                                                <input value="Gasham" required type="text"
+                                                    class="form-group__form-control input-style" id="firstname">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label class="form-group__label required" for="lastname">Last Name</label>
+                                            <div class="input-group">
+                                                <input value="Guluzada" required type="text"
+                                                    class="form-group__form-control input-style" id="lastname">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <label class="form-group__label required" for="country">Country</label>
+                                            <div class="input-group">
+                                                <div class="form-group__form-select-control">
+                                                    <select class="js-choice">
+                                                        <option value="Azerbaijan">Azerbaijan</option>
+                                                        <option value="Belgium">Belgium</option>
+                                                        <option value="Brazil">Brazil</option>
+                                                        <option value="Greece">Greece</option>
+                                                        <option value="Mexico">Mexico</option>
+                                                        <option value="New Zealand">New Zealand</option>
+                                                        <option value="Russia">Russia</option>
+                                                        <option value="Turkey">Turkey</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <label class="form-group__label required" for="address1">Address Line 1
+                                            </label>
+                                            <div class="input-group">
+                                                <input placeholder="Street , Address , Company Name" required
+                                                    type="text" class="form-group__form-control input-style"
+                                                    id="address1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <label class="form-group__label" for="address2">Address Line 2</label>
+                                            <div class="input-group">
+                                                <input placeholder="Apartment, Suite, Unit, Building, Floor, etc."
+                                                    required type="text" class="form-group__form-control input-style"
+                                                    id="address2">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label class="form-group__label" for="zipCode">Post / ZIP Code</label>
+                                            <div class="input-group">
+                                                <input placeholder="AZE" required type="text"
+                                                    class="form-group__form-control input-style" id="zipCode">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label class="form-group__label" for="city">City</label>
+                                            <div class="input-group">
+                                                <input placeholder="Baku" required type="text"
+                                                    class="form-group__form-control input-style" id="city">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <label class="form-group__label required" for="phonenumber">Phone
+                                                Number:</label>
+                                            <div class="input-group">
+                                                <div class="form-group__form-select-control phone-control">
+                                                    <select name="phoneCode" class="js-choice">
+                                                        <option value="+93">Afghanistan +93</option>
+                                                        <option value="+355">Albania +355</option>
+                                                        <option value="+213">Algeria +213</option>
+                                                        <option value="+1684">American Samoa +1684</option>
+                                                        <option value="+234">Brasil +234</option>
+                                                        <option value="+994" selected="selected">Azerbaijan +994
+                                                        </option>
+                                                    </select>
+                                                    <input name="phoneNumber" maxlength="9" class="phone-input"
+                                                        placeholder="51 760 31 81" type="text" id="phonenumber">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="billingAddress"
+                                    class="row payment-and-billing-section__billing-address js-billing-address">
+                                    <div class="col-lg-12">
+                                        <h2 class="form-title mb--32 font-family--2 font-weight--bold">
+                                            Billing Address
+                                        </h2>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label class="form-group__label required" for="firstname2">First
+                                                Name</label>
+                                            <div class="input-group">
+                                                <input value="Gasham" required type="text"
+                                                    class="form-group__form-control input-style" id="firstname2">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label class="form-group__label required" for="lastname2">Last Name</label>
+                                            <div class="input-group">
+                                                <input value="Guluzada" required type="text"
+                                                    class="form-group__form-control input-style" id="lastname2">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <label class="form-group__label required" for="country2">Country</label>
+                                            <div class="input-group">
+                                                <div class="form-group__form-select-control">
+                                                    <select class="js-choice">
+                                                        <option value="Azerbaijan">Azerbaijan</option>
+                                                        <option value="Belgium">Belgium</option>
+                                                        <option value="Brazil">Brazil</option>
+                                                        <option value="Greece">Greece</option>
+                                                        <option value="Mexico">Mexico</option>
+                                                        <option value="New Zealand">New Zealand</option>
+                                                        <option value="Russia">Russia</option>
+                                                        <option value="Turkey">Turkey</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <label class="form-group__label required" for="address3">Address Line 1
+                                            </label>
+                                            <div class="input-group">
+                                                <input placeholder="Street , Address , Company Name" required
+                                                    type="text" class="form-group__form-control input-style"
+                                                    id="address3">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <label class="form-group__label" for="address4">Address Line 2</label>
+                                            <div class="input-group">
+                                                <input placeholder="Apartment, Suite, Unit, Building, Floor, etc."
+                                                    required type="text" class="form-group__form-control input-style"
+                                                    id="address4">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label class="form-group__label" for="zipCode2">Post / ZIP Code</label>
+                                            <div class="input-group">
+                                                <input placeholder="AZE" required type="text"
+                                                    class="form-group__form-control input-style" id="zipCode2">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label class="form-group__label" for="city2">City</label>
+                                            <div class="input-group">
+                                                <input placeholder="Baku" required type="text"
+                                                    class="form-group__form-control input-style" id="city2">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <label class="form-group__label required" for="phonenumber2">Phone
+                                                Number:</label>
+                                            <div class="input-group">
+                                                <div class="form-group__form-select-control phone-control">
+                                                    <select name="phoneCode" class="js-choice">
+                                                        <option value="+93">Afghanistan +93</option>
+                                                        <option value="+355">Albania +355</option>
+                                                        <option value="+213">Algeria +213</option>
+                                                        <option value="+1684">American Samoa +1684</option>
+                                                        <option value="+234">Brasil +234</option>
+                                                        <option value="+994" selected="selected">Azerbaijan +994
+                                                        </option>
+                                                    </select>
+                                                    <input name="phoneNumber" maxlength="9" class="phone-input"
+                                                        placeholder="51 760 31 81" type="text" id="phonenumber2">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <label class="form-group__checkbox" for="isSame">
+                                                    <input checked="checked" class="js-billing-address-checkbox"
+                                                        id="isSame" type="checkbox">
+                                                    <span class="checkbox-control"></span>
+                                                    <span class="checkbox-label">
+                                                        Billing Address same
+                                                        as Shipping Address
+                                                    </span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <a href="review_and_pay.html"
+                                                class="btn btn--brand btn--block btn--fs-16 btn--48">Review and Pay</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 offset-lg-1">
+                        <div class="shopping-bag-card payment-and-billing-section__order-summary">
+                            <div
+                                class="shopping-bag-card__header display--flex justify-content--between align-items--center">
+                                <h4 class="shopping-bag-card__title font-weight--600 font-family--1">YOUR ORDER</h4>
+                                <p class="shopping-bag-card__items-count font-family--2 font-weight--500">2 items in
+                                    your bag</p>
+                            </div>
+                            <div class="shopping-bag-card__body scrollbar-style">
+                                <ul class="product-list">
+                                    <li class="product-list__item">
+                                        <a href="works.html">
+                                            <div class="product-list__item-left">
+                                                <img class="img-100" src="images/product4.png" alt="product">
+                                            </div>
+                                            <div class="product-list__item-right">
+                                                <h5 class="product-list__item-name">Fantasie über Themen aus Giuseppe
+                                                    Verdis Rigoletto</h5>
+                                                <div class="product-list__item-summary">
+                                                    <div class="product-list__item-type">Printing</div>
+                                                    <div class="product-list__item-cost-info">
+                                                        <div class="product-list__item-price-and-quantity">
+                                                            Quantity: <span class="product-list__item-quantity">1</span>
+                                                            x
+                                                            <span class="product-list__item-price">€24.9</span>
+                                                        </div>
+                                                        <span
+                                                            class="product-list__item-total-cost text-transform--uppercase font-weight--600">TOTAL
+                                                            €24.9</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="product-list__item">
+                                        <a href="works.html">
+                                            <div class="product-list__item-left">
+                                                <img class="img-100" src="images/product4.png" alt="product">
+                                            </div>
+                                            <div class="product-list__item-right">
+                                                <h5 class="product-list__item-name">Fantasie über Themen aus Giuseppe
+                                                    Verdis Rigoletto</h5>
+                                                <div class="product-list__item-summary">
+                                                    <div class="product-list__item-type">Printing</div>
+                                                    <div class="product-list__item-cost-info">
+                                                        <div class="product-list__item-price-and-quantity">
+                                                            Quantity: <span class="product-list__item-quantity">1</span>
+                                                            x
+                                                            <span class="product-list__item-price">€24.9</span>
+                                                        </div>
+                                                        <span
+                                                            class="product-list__item-total-cost text-transform--uppercase font-weight--600">TOTAL
+                                                            €24.9</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="shopping-bag-card__footer display--flex align-items--center">
+                                <p class="shopping-bag-card__total-cost-info text-transform--uppercase"><span>Total
+                                        COST:</span>
+                                    <strong class="total-cost text-transform--uppercase"><span>€
+                                            24.9</span></strong>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- #endregion =========================================== Payment and Billing Section - End =========================================== -->
+
+    </main>
+
+    <!-- #region    =========================================== Footer - Start =========================================== -->
+    <footer class="footer footer--dark">
+        <div class="footer__top">
+            <div class="container">
+                <div class="section-top">
+                    <h2 class="section-top__title text-transform--uppercase">Latest news</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="footer__left">
+                            <p class="footer__content text-transform--uppercase">Be the first to know about new
+                                products, exclusive offers and giveaways</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="footer__right">
+                            <form class="footer__form" autocomplete="off" spellcheck="false">
+                                <div class="form-group mb--0">
+                                    <div class="input-group input-group--inside-label border-bottom--0"> <input required
+                                            type="name" class="form-group__form-control input-style" id="name"> <label
+                                            class="form-group__label" for="name">Name:</label> </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group input-group--inside-label"> <input required type="email"
+                                            class="form-group__form-control input-style" id="email"> <label
+                                            class="form-group__label" for="email">Email:</label> </div>
+                                </div>
+                                <div class="form-group"> <button type="submit"
+                                        class="btn btn--brand btn--block btn--fs-16 btn--56 border">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <ul class="footer__list footer__list--contact display--flex justify-content--center flex-wrap--wrap">
+                    <li> <a target="_blank" rel="noo" href="mailto:music@danturCan.com"> music@danturCan.com </a> </li>
+                    <li> <a target="_blank" rel="noo" href="tel:+40 (31) 229 74 31"> +40 (31) 229 74 31 </a> </li>
+                    <li> <a href="javascript:void(0);"> Strada Popa Soare 31-23 București 030167, Romania </a> </li>
+                    <li> <a href="javascript:void(0);"> All rights reserved, 2020 danturCan © </a> </li>
+                </ul>
+                <ul class="footer__list footer__list--social display--flex justify-content--center flex-wrap--wrap">
+                    <li> <a target="_blank" rel="noopener noreferrer" href="../components.html"> INSTAGRAM </a> </li>
+                    <li> <a target="_blank" rel="noopener noreferrer" href="../components.html"> FACEBOOK </a> </li>
+                    <li> <a target="_blank" rel="noopener noreferrer" href="../components.html"> SOUNDCLOUD </a> </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- #endregion =========================================== Footer - End =========================================== -->
+    <script defer="defer" src="js/main.8a842c98c82755196a27.js"></script>
+</body>
+
+</html>
