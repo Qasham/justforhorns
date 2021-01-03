@@ -7,208 +7,350 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet"> <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.5.55/css/materialdesignicons.min.css" integrity="sha512-fwJwcnaCDZRE9ZXt3Gevw/0WLt8A4tH+5hb1v5ps08P12o4S4BoV0tqrAa71uyclLRQvg6YMKw2RoeqTqhQBhA==" crossorigin="anonymous">
 
-<meta name="theme-color" content="#f5f2f0"><link rel="icon" href="favicon.ico"><link href="assets/styles/style.35b3c7efc98ce12637e0.css" rel="stylesheet"></head>
+<meta name="theme-color" content="#f5f2f0"><link rel="icon" href="favicon.ico"><link href="assets/styles/style.ad050fae3a8e151a5957.css" rel="stylesheet"></head>
 
 <body class="scrollbar-style">
-  <!-- #region    =========================================== Header Start =========================================== -->
-  <header id="header" class="header"> <div class="container"> <div class="header__wrapper display--flex justify-content--between align-items--center flex-wrap--wrap"> <div class="header__brand-logo"> <a href="index.html"> <span>Dan Turcan</span> </a> </div> <div class="header__menu-icons-wrapper"> <a href="javascript:void(0)" class="header__shopinng-bag-icon js-show-shopping-modal"> <span class="shopping-bag-item-count"> 2 </span> <i class="mdi mdi-cart icon-style"></i> </a> <div class="header__menu-icon js-toggle-menu"> <span class="line"></span> <span class="line"></span> <span class="line"></span> </div> </div> <nav class="header__nav js-nav-menu"> <ul class="header__nav-list"> <li class="header__nav-item"><a class="header__nav-link" href="works.html">Works </a></li> <li class="header__nav-item"><a class="header__nav-link" href="about.html">About</a></li> <li class="header__nav-item"><a class="header__nav-link" href="contact.html">Contact</a></li> <li class="header__nav-item display-md--none"><a class="header__nav-link header__nav-link--has-icon js-show-shopping-modal" href="javascript:void(0)"> <span class="shopping-bag-item-count"> 2 </span> <i class="mdi mdi-cart icon-style"></i> </a></li> <li class="header__nav-item"><a class="header__nav-link active" href="user_account_information.html">MY ACCOUNT </a></li> </ul> </nav> <div id="shopping-bag-modal" class="custom-dropdown"> <div class="custom-dropdown__header display--flex align-items--center justify-content--between"> <h4 class="custom-dropdown__title">My shopping bag</h4> <button class="custom-dropdown__close-btn no-appearance js-close-shopping-modal"> <i class="mdi mdi-close icon-style"></i> </button> </div> <div class="custom-dropdown__body scrollbar-style"> <ul class="product-list product-list--for-dropdown"> <li class="product-list__item"> <a href="product_detail.html"> <div class="product-list__item-left"> <img class="img-100" src="assets/images/product4.png" alt="product"> </div> <div class="product-list__item-right"> <h5 class="product-list__item-name">Fantasie über Themen aus Giuseppe Verdis Rigoletto</h5> <div class="product-list__item-summary"> <div class="product-list__item-cost-info"> <div class="product-list__item-quantity">Quantity: <span>1</span></div> <span class="product-list__item-price font-weight--600">€24.9</span> </div> </div> </div> </a> </li> <li class="product-list__item"> <a href="product_detail.html"> <div class="product-list__item-left"> <img class="img-100" src="assets/images/product4.png" alt="product"> </div> <div class="product-list__item-right"> <h5 class="product-list__item-name">Fantasie über Themen aus Giuseppe Verdis Rigoletto</h5> <div class="product-list__item-summary"> <div class="product-list__item-cost-info"> <div class="product-list__item-quantity">Quantity: <span>1</span></div> <span class="product-list__item-price font-weight--600">€24.9</span> </div> </div> </div> </a> </li> <li class="product-list__item"> <a href="product_detail.html"> <div class="product-list__item-left"> <img class="img-100" src="assets/images/product4.png" alt="product"> </div> <div class="product-list__item-right"> <h5 class="product-list__item-name">Fantasie über Themen aus Giuseppe Verdis Rigoletto</h5> <div class="product-list__item-summary"> <div class="product-list__item-cost-info"> <div class="product-list__item-quantity">Quantity: <span>1</span></div> <span class="product-list__item-price font-weight--600">€24.9</span> </div> </div> </div> </a> </li> </ul> </div> <div class="custom-dropdown__footer"> <div class="custom-dropdown__total-cost-info font-weight--600 text-transform--uppercase"> <span>Total</span> € 24.9 </div> <div class="custom-dropdown__actions-wrapper"> <a href="shopping_bag.html" class="btn btn--brand btn--outline mr--8">View bag</a> <a href="payment_and_billing.html" class="btn btn--brand">Checkout</a> </div> </div> </div> </div> </div> </header> <div class="bg-overlay"></div>
-  <!-- #endregion =========================================== Header End =========================================== -->
-
-  <main class="main bg-color--white">
-    <div class="container py--16">
-      <div class="modal" id="thanksModal">
-        <div class="modal__dialog">
-          <div class="modal__content">
-            <div class="modal__header">
-              <h5 class="modal__title">Thank you for registering!</h5>
-              <button data-dismiss="modal" type="button" class="no-appearance">
-                <i class="mdi mdi-close icon-style"></i>
-              </button>
-            </div>
-            <div class="modal__body">
-              <p>A Sign Up invitation has been sent to test@gmail.com, please check your e-mail</p>
-            </div>
-            <!-- <div class="modal__footer">
-            </div> -->
-          </div>
+  <section class="py--32 components-section">
+    <div class="container">
+      <div class="mb--32">
+        <div class="section-top">
+          <h2 class="section-top__title text-transform--uppercase">Breadcrumb</h2>
         </div>
-      </div>
-      <div class="modal" id="thanksModal2">
-        <div class="modal__dialog">
-          <div class="modal__content">
-            <div class="modal__header">
-              <h5 class="modal__title">Thank you for registering2!</h5>
-              <button data-dismiss="modal" type="button" class="no-appearance">
-                <i class="mdi mdi-close icon-style"></i>
-              </button>
-            </div>
-            <div class="modal__body">
-              <p>A Sign Up invitation has been sent to test@gmail.com, please check your e-mail2</p>
-            </div>
-            <!-- <div class="modal__footer">
-            </div> -->
-          </div>
-        </div>
-      </div>
-      <button class="btn btn--brand" data-toggle="modal" data-target-modal="#thanksModal">Open modal</button>
-      <button class="btn btn--brand" data-toggle="modal" data-target-modal="#thanksModal2">Open modal 2</button>
-      <div class="row">
-        <div class="col-md-12">
-          <ul class="breadcrumb-list mb--24">
-            <li class="breadcrumb-list__item">
-              <a href="index.html" class="breadcrumb-list__link">Home</a>
+        <div class="breadcrumb">
+          <ul class="breadcrumb__list hide-scrollbar">
+            <li class="breadcrumb__item">
+              <a href="works.html" class="breadcrumb__link">Works</a>
             </li>
-            <li class="breadcrumb-list__item">
-              <a href="about.html" class="breadcrumb-list__link">About</a>
+            <li class="breadcrumb__item">
+              <a href="product_detail.html" class="breadcrumb__link">Fantasie über Themen aus Giuseppe
+                Verdis
+                Rigoletto</a>
             </li>
-            <li class="breadcrumb-list__item">
-              <a href="contact.html" class="breadcrumb-list__link">Contact</a>
+            <li class="breadcrumb__item">
+              <a href="shopping_bag.html" class="breadcrumb__link">Shopping Bag</a>
             </li>
-            <li class="breadcrumb-list__item">
-              <a href="payment_and_billing.html" class="breadcrumb-list__link">Payment and Billing</a>
-            </li>
-            <li class="breadcrumb-list__item active">
-              <a href="#" class="breadcrumb-list__link">Components</a>
+            <li class="breadcrumb__item active">
+              Payment and Billing
             </li>
           </ul>
-          <div class="tags-wrapper mb--16 display--flex flex-wrap--wrap">
-            <div class="tag mr--8">
-              <span class="tag__text">Trumpet</span>
-              <i class="tag__icon mdi mdi-close"></i>
-            </div>
-            <div class="tag mr--8">
-              <span class="tag__text">Solos and Features</span>
-              <i class="tag__icon mdi mdi-close"></i>
-            </div>
-            <div class="tag mr--8">
-              <span class="tag__text">Albert Flores</span>
-              <i class="tag__icon mdi mdi-close"></i>
-            </div>
+        </div>
+      </div>
+      <div class="mb--40">
+        <div class="section-top">
+          <h2 class="section-top__title text-transform--uppercase">Pagination</h2>
+        </div>
+        <div class="pagination">
+          <div class="pagination__input-wrapper">
+            <button class="no-appearance js-pagination-button prev" disabled="true">
+              <i class="mdi mdi-chevron-left icon-style"></i></button>
+            <input value="1" min="1" max="22" class="js-pagination-input" type="text">
+            <button class="no-appearance js-pagination-button next"><i class="mdi mdi-chevron-right icon-style"></i></button>
           </div>
-          <div class="buttons-wrapper mb--32 display--flex flex-wrap--wrap">
-            <button class="mr--16 btn btn--brand">View more projects</button>
-            <button class="mr--16 btn btn--brand btn--outline">View more projects</button>
-            <button class="mr--16 btn btn--brand btn--with-icon"><i class="mdi mdi-cart"></i><span>View
-                more projects</span>
-            </button>
-          </div>
-          <div class="form-wrapper mx--auto" style="max-width: 570px;">
-            <div class="form-group">
-              <button class="mb--16 btn btn--brand btn--block bg-color--google position--relative">
-                <img src="assets/images/google_icon.svg">
-                <span>Log in with Google</span>
-              </button>
-              <button class="btn btn--brand btn--block bg-color--facebook position--relative">
-                <img src="assets/images/facebook_icon.svg">
-                <span>Log in with Facebook</span>
-              </button>
-
-            </div>
-            <p class="form-line">or</p>
-            <form spellcheck="false" autocomplete="off">
-              <div class="form-group">
-                <label class="form-group__label" for="email2">Email:</label>
-                <div class="input-group">
-                  <input required type="email" class="form-group__form-control input-style" id="email2">
-                </div>
-                <small class="form-group__helper-text">We'll never share your email with anyone else.</small>
-              </div>
-              <div class="form-group">
-                <label class="form-group__label" for="password">Password:</label>
-                <div class="input-group">
-                  <input required type="password" class="form-group__form-control input-style" id="password">
-                  <i class="mdi mdi-eye input-group__icon input-group__icon--password js-show-password"></i>
-                </div>
-                <small class="form-group__helper-text">We'll never share your email with anyone else.</small>
-              </div>
-              <div class="form-group">
-                <label class="form-group__label" for="password">City:</label>
-                <div class="input-group">
-                  <select class="js-choice">
-                    <option value="1">Popular</option>
-                    <option value="2">Recent</option>
-                    <option value="3">Most Read</option>
-                    <option value="4">Famous</option>
-                    <option value="5">JavaScript</option>
-                  </select>
-                </div>
-                <small class="form-group__helper-text">We'll never share your email with anyone
-                  else.</small>
-              </div>
-              <div class="form-group">
-                <label class="form-group__label" for="password">Description:</label>
-                <div class="input-group">
-                  <textarea required type="text" class="form-group__form-control textarea-style" id="description" name="" id="" cols="30" rows="10"></textarea>
-                </div>
-                <small class="form-group__helper-text">We'll never share your email with anyone else.</small>
-              </div>
-              <div class="form-group">
-                <button type="submit" class="btn btn--brand btn--block btn--48">Log in</button>
-              </div>
-              <div class="form-group">
-                <p class="font-weight--500">Need an account? <a href="#signup" class="link-style">SIGN UP</a></p>
-              </div>
-
-            </form>
-            <div class="custom-dropdown">
-              <div class="custom-dropdown__header">
-                <h4 class="custom-dropdown__title">My shopping bag</h4>
-              </div>
-              <div class="custom-dropdown__body">
-                <ul class="product-list">
-                  <li class="product-list__item">
-                    <a href="works.html">
-                      <div class="product-list__item-left">
-                        <img class="img-100" src="assets/images/product4.png" alt="product">
-                      </div>
-                      <div class="product-list__item-right">
-                        <h5 class="product-list__item-name">Fantasie über Themen aus Giuseppe Verdis Rigoletto</h5>
-                        <div class="product-list__price-info">
-                          <p>Quantity:<span class="product-list__item-count">1</span>x<span class="product-list__item-price">€24.9</span></p>
-                          <strong class="text-transform--uppercase">TOTAL <span class="product-list__item-total-price">€
-                              24.9</span></strong>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="product-list__item">
-                    <a href="works.html">
-                      <div class="product-list__item-left">
-                        <img class="img-100" src="assets/images/product4.png" alt="product">
-                      </div>
-                      <div class="product-list__item-right">
-                        <h5 class="product-list__item-name">Fantasie über Themen aus Giuseppe Verdis Rigoletto</h5>
-                        <div class="product-list__price-info">
-                          <p>Quantity:<span class="product-list__item-count">1</span>x<span class="product-list__item-price">€24.9</span></p>
-                          <strong class="text-transform--uppercase">TOTAL <span class="product-list__item-total-price">€
-                              24.9</span></strong>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div class="custom-dropdown__footer">
-                <p class="custom-dropdown__total-cost-info"><span>SUBTOTAL COST:</span>
-                  <strong class="text-transform--uppercase">TOTAL <span>€
-                      24.9</span></strong>
-                </p>
-                <div class="custom-dropdown__actions-wrapper">
-                  <a href="works.html" class="btn btn--brand btn--outline mr--8">View bag</a>
-                  <a href="works.html" class="btn btn--brand">Checkout</a>
-                </div>
-              </div>
-            </div>
-
+          <div class="font-weight--500 ml--12">
+            <span class="mr--4">of</span>
+            <span class="pagination__total-page-count">22</span>
           </div>
         </div>
       </div>
-    </div>
-  </main>
-  <!-- #region    =========================================== Footer Start =========================================== -->
-  <footer class="footer footer--dark"> <div class="footer__top"> <div class="container"> <div class="section-top"> <h2 class="section-top__title text-transform--uppercase">Latest news</h2> </div> <div class="row"> <div class="col-lg-6"> <div class="footer__left"> <p class="footer__content text-transform--uppercase">Be the first to know about new products, exclusive offers and giveaways</p> </div> </div> <div class="col-lg-6"> <div class="footer__right"> <form class="footer__form" autocomplete="off" spellcheck="false"> <div class="form-group mb--0"> <div class="input-group input-group--inside-label border-bottom--0"> <input required type="name" class="form-group__form-control input-style" id="name"> <label class="form-group__label" for="name">Name:</label> </div> </div> <div class="form-group"> <div class="input-group input-group--inside-label"> <input required type="email" class="form-group__form-control input-style" id="email"> <label class="form-group__label" for="email">Email:</label> </div> </div> <div class="form-group"> <button type="submit" class="btn btn--brand btn--block btn--fs-16 btn--56 border">Submit</button> </div> </form> </div> </div> </div> </div> </div> <div class="footer__bottom"> <div class="container"> <ul class="footer__list footer__list--contact display--flex justify-content--center flex-wrap--wrap"> <li> <a target="_blank" rel="noopener noreferrer" href="mailto:music@danturCan.com"> music@danturCan.com </a> </li> <li> <a target="_blank" rel="noopener noreferrer" href="tel:+40 (31) 229 74 31"> +40 (31) 229 74 31 </a> </li> <li> <a> Strada Popa Soare 31-23 București 030167, Romania </a> </li> <li> <a> All rights reserved, 2020 danturCan © </a> </li> </ul> <ul class="footer__list footer__list--social display--flex justify-content--center flex-wrap--wrap"> <li> <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/"> INSTAGRAM </a> </li> <li> <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/"> FACEBOOK </a> </li> <li> <a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/"> SOUNDCLOUD </a> </li> </ul> </div> </div> </footer>
-  <!-- #endregion =========================================== Footer End =========================================== -->
+      <div class="mb--40">
+        <div class="section-top">
+          <h2 class="section-top__title text-transform--uppercase">Buttons</h2>
+        </div>
+        <div class="display--flex flex-wrap--wrap">
+          <button class="btn btn--brand mb--16 mr--16">Normal button</button>
 
-<script defer="defer" src="assets/js/main.595f5c488b3e6e4c54c8.js"></script></body>
+          <button class="btn btn--brand btn--outline mb--16 mr--16">Outline button</button>
+
+          <button class="btn btn--brand btn--outline btn--transparent mb--16 mr--16">Transparent button</button>
+          <button class="btn btn--brand btn--with-icon mb--16 mr--16"><i class="mdi mdi-cart"></i><span>Button with
+              icon</span>
+            <button class="btn btn--brand mb--16 mr--16" disabled="disabled">Disabled button</button>
+            <button class="btn btn--brand btn--block mb--16">Block Button</button>
+            <button class="mb--16 btn btn--brand btn--social btn--block btn--fs-16 bg-color--google">
+              <img src="assets/images/google_icon.svg">
+              <span>Google button</span>
+            </button>
+            <button class="btn btn--brand btn--social btn--block btn--fs-16 bg-color--facebook">
+              <img src="assets/images/facebook_icon.svg">
+              <span>Facebook button</span>
+            </button>
+
+
+          </button>
+
+
+
+        </div>
+      </div>
+      <div class="mb--40">
+        <div class="section-top">
+          <h2 class="section-top__title text-transform--uppercase">Form components</h2>
+        </div>
+        <form class="js-validate-form" novalidate autocomplete="off">
+          <div class="form-group">
+            <label class="form-group__label required" for="name">Name:</label>
+            <div class="input-group">
+              <input data-pristine-pattern="/^[A-Za-z\s]+$/" data-pristine-pattern-message="Only letter accepted" data-pristine-maxlength="50" data-pristine-maxlength-message="This field must be maximum 50 characters" data-pristine-required-message="This field is required" required type="text" class="form-group__form-control input-style" placeholder="Name" id="name">
+            </div>
+            <div class="form-group__error-messages-wrapper">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-group__label required" for="email">Email:</label>
+            <div class="input-group">
+              <input data-pristine-email-message="Please enter valid e-mail" data-pristine-required-message="This field is required" required type="email" placeholder="Email" class="form-group__form-control input-style" id="email">
+            </div>
+            <div class="form-group__error-messages-wrapper">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-group__label required" for="password">Password:</label>
+            <div class="input-group">
+              <input data-pristine-pattern="/^(?=.*?[A-Z])(?=.*?[0-9]).{8,}$/" data-pristine-pattern-message="Minimum 8 characters, at least one uppercase letter and one number" data-pristine-required-message="This field is required" required type="password" autocomplete="new-password" class="form-group__form-control input-style" id="password" placeholder="Password">
+              <i class="mdi mdi-eye input-group__icon input-group__icon--password js-show-password"></i>
+            </div>
+            <div class="form-group__error-messages-wrapper">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-group__label required" for="text">Textarea:</label>
+            <div class="input-group">
+              <textarea data-pristine-maxlength="1000" data-pristine-maxlength-message="This field must be maximum 1000 characters" placeholder="Textarea" data-pristine-required-message="This field is required" maxlength="1000" required class="form-group__form-control textarea-style scrollbar-style js-check-character-count" id="text" name="text" id="text" cols="30" rows="10"></textarea>
+              <span class="character-count"></span>
+            </div>
+            <div class="form-group__error-messages-wrapper">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-group__label required" for="country">Country</label>
+            <div class="input-group">
+              <div class="form-group__form-select-control">
+                <select required class="js-choice">
+                  <option value="Azerbaijan">Azerbaijan</option>
+                  <option value="Belgium">Belgium</option>
+                  <option value="Brazil">Brazil</option>
+                  <option value="Greece">Greece</option>
+                  <option value="Mexico">Mexico</option>
+                  <option value="New Zealand">New Zealand</option>
+                  <option value="Russia">Russia</option>
+                  <option value="Turkey">Turkey</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group__error-messages-wrapper">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-group__label required" for="phonenumber">Phone
+              Number:</label>
+            <div class="input-group">
+              <div class="form-group__form-select-control phone-control">
+                <select name="phoneCode" required class="js-choice">
+                  <option value="+93">Afghanistan +93</option>
+                  <option value="+355">Albania +355</option>
+                  <option value="+213">Algeria +213</option>
+                  <option value="+1684">American Samoa +1684</option>
+                  <option value="+234">Brasil +234</option>
+                  <option value="+994" selected="selected">Azerbaijan +994</option>
+                </select>
+                <input data-pristine-pattern="/^\d{9}$/" maxlength="9" data-pristine-pattern-message="Please enter valid phone number " data-pristine-required-message="This field is required" name="phoneNumber" class="phone-input js-only-number-mask" placeholder="000000000" required type="text" id="phonenumber">
+              </div>
+            </div>
+            <div class="form-group__error-messages-wrapper">
+            </div>
+
+          </div>
+          <div class="form-group">
+            <div class="input-group">
+              <label class="form-group__checkbox" for="checkbox">
+                <input checked="checked" id="checkbox" type="checkbox">
+                <span class="checkbox-control"></span>
+                <span class="checkbox-label">
+                  Checkbox
+                </span>
+              </label>
+            </div>
+          </div>
+
+        </form>
+      </div>
+      <div class="mb--40">
+        <div class="section-top">
+          <h2 class="section-top__title text-transform--uppercase">Product cards</h2>
+        </div>
+        <div class="row">
+          <div class="col-xl-4 col-md-6 col-sm-12">
+            <div class="product-card">
+              <div class="product-card__image-wrapper">
+                <img loading="lazy" class="img-100" src="assets/images/product3.png">
+              </div>
+              <div class="product-card__main-content display--flex flex-direction--column">
+                <div class="product-card__composers text-truncate">
+                  <a class="color--inherit" href="works.html">
+                    Uber, David
+                  </a>
+                </div>
+                <h3 class="product-card__name mt--auto">
+                  <a class="color--inherit" href="product_detail.html">
+                    Thirty Studies in the Bass and Tenor Clef für Posaune
+                  </a>
+                </h3>
+                <div class="display--flex justify-content--between">
+                  <div class="product-card__instruments text-truncate">
+                    <a class="color--inherit" href="works.html">
+                      Trombone
+                    </a>
+                  </div>
+                  <span class="product-card__price">16.5 $</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6 col-sm-12">
+            <div class="product-card">
+              <div class="product-card__main-content display--flex flex-direction--column">
+                <div class="product-card__composers text-truncate">
+                  <a class="color--inherit" href="works.html">
+                    Müller, Michael & Sturm, Maria
+                  </a>
+                </div>
+                <h3 class="product-card__name">
+                  <a class="color--inherit" href="product_detail.html">
+                    Fantasie über Themen aus Giuseppe Verdis Rigoletto
+                  </a>
+                </h3>
+                <div class="display--flex justify-content--between mt--auto">
+                  <div class="product-card__instruments text-truncate">
+                    <a class="color--inherit" href="works.html">
+                      Trombone
+                    </a>
+                  </div>
+                  <span class="product-card__price">16.5 $</span>
+                </div>
+              </div>
+              <div class="product-card__player-wrapper display--flex justify-content--between align-items--center">
+                <div class="product-card__audio audio-player">
+                  <audio preload="none" crossorigin playsinline class="js-player">
+                    <source src="https://cdn.plyr.io/static/demo/Kishi_Bashi_-_It_All_Began_With_a_Burst.mp3" type="audio/mp3">
+                  </audio>
+                </div>
+                <div class="product-card__video">
+                  <a href="https://www.youtube.com/watch?v=rmGYK93Rhj8&l" class="product-card__youtube-link" target="_blank" rel="noopener noreferrer">
+                    <i class="mdi mdi-youtube icon-style"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+      <div class="mb--40">
+        <div class="section-top">
+          <h2 class="section-top__title text-transform--uppercase">Shopping bag card</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="shopping-bag-card">
+              <div class="shopping-bag-card__header display--flex justify-content--between align-items--center">
+                <h4 class="shopping-bag-card__title font-weight--600 font-family--1">YOUR ORDER</h4>
+                <p class="shopping-bag-card__items-count font-family--2 font-weight--500">2 items in
+                  your bag</p>
+              </div>
+              <div class="shopping-bag-card__body scrollbar-style">
+                <ul class="product-list">
+                  <li class="product-list__item">
+                    <a href="product_detail.html">
+                      <div class="product-list__item-left">
+                        <img class="img-100" src="assets/images/product4.png" alt="product">
+                      </div>
+                      <div class="product-list__item-right">
+                        <h5 class="product-list__item-name">Fantasie über Themen aus Giuseppe
+                          Verdis Rigoletto</h5>
+                        <div class="product-list__item-summary">
+                          <div class="product-list__item-type">Printing</div>
+                          <div class="product-list__item-cost-info">
+                            <div class="product-list__item-price-and-quantity">
+                              Quantity: <span class="product-list__item-quantity">1</span>
+                              x
+                              <span class="product-list__item-price">€24.9</span>
+                            </div>
+                            <span class="product-list__item-total-cost text-transform--uppercase font-weight--600">TOTAL
+                              €24.9</span>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="product-list__item">
+                    <a href="product_detail.html">
+                      <div class="product-list__item-left">
+                        <img class="img-100" src="assets/images/product4.png" alt="product">
+                      </div>
+                      <div class="product-list__item-right">
+                        <h5 class="product-list__item-name">Fantasie über Themen aus Giuseppe
+                          Verdis Rigoletto</h5>
+                        <div class="product-list__item-summary">
+                          <div class="product-list__item-type">Printing</div>
+                          <div class="product-list__item-cost-info">
+                            <div class="product-list__item-price-and-quantity">
+                              Quantity: <span class="product-list__item-quantity">1</span>
+                              x
+                              <span class="product-list__item-price">€24.9</span>
+                            </div>
+                            <span class="product-list__item-total-cost text-transform--uppercase font-weight--600">TOTAL
+                              €24.9</span>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+                </ul>
+              </div>
+              <div class="shopping-bag-card__footer display--flex align-items--center">
+                <p class="shopping-bag-card__total-cost-info text-transform--uppercase"><span>Total
+                    COST:</span>
+                  <strong class="total-cost text-transform--uppercase"><span>€
+                      24.9</span></strong>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="mb--40">
+        <div class="section-top">
+          <h2 class="section-top__title text-transform--uppercase">Modal</h2>
+        </div>
+        <div class="display--flex flex-wrap--wrap">
+          <button class="btn btn--brand mb--16 mr--16" data-toggle="modal" data-target-modal="#thanksModal">Open
+            Modal</button>
+        </div>
+        <div class="modal" id="thanksModal">
+          <div class="modal__dialog">
+            <div class="modal__content">
+              <div class="modal__header">
+                <h5 class="modal__title">Thank you for registering!</h5>
+                <button data-dismiss="modal" type="button" class="no-appearance">
+                  <i class="mdi mdi-close icon-style"></i>
+                </button>
+              </div>
+              <div class="modal__body">
+                <p>A Sign Up invitation has been sent to test@gmail.com, please check your e-mail</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div></section>
+
+
+
+<script defer="defer" src="assets/js/main.132fdc65f1093e8ef19c.js"></script></body>
 
 </html>
