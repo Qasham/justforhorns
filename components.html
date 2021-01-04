@@ -5,9 +5,18 @@
   <meta charset="UTF-8">
   <title>Components</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet"> <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.5.55/css/materialdesignicons.min.css" integrity="sha512-fwJwcnaCDZRE9ZXt3Gevw/0WLt8A4tH+5hb1v5ps08P12o4S4BoV0tqrAa71uyclLRQvg6YMKw2RoeqTqhQBhA==" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.5.55/css/materialdesignicons.min.css"
+    integrity="sha512-fwJwcnaCDZRE9ZXt3Gevw/0WLt8A4tH+5hb1v5ps08P12o4S4BoV0tqrAa71uyclLRQvg6YMKw2RoeqTqhQBhA=="
+    crossorigin="anonymous">
 
-<meta name="theme-color" content="#f5f2f0"><link rel="icon" href="favicon.ico"><link href="assets/styles/style.ad050fae3a8e151a5957.css" rel="stylesheet"></head>
+  <meta name="theme-color" content="#f5f2f0">
+  <link rel="icon" href="favicon.ico">
+  <link href="assets/styles/style.ad050fae3a8e151a5957.css" rel="stylesheet">
+</head>
 
 <body class="scrollbar-style">
   <section class="py--32 components-section">
@@ -44,7 +53,8 @@
             <button class="no-appearance js-pagination-button prev" disabled="true">
               <i class="mdi mdi-chevron-left icon-style"></i></button>
             <input value="1" min="1" max="22" class="js-pagination-input" type="text">
-            <button class="no-appearance js-pagination-button next"><i class="mdi mdi-chevron-right icon-style"></i></button>
+            <button class="no-appearance js-pagination-button next"><i
+                class="mdi mdi-chevron-right icon-style"></i></button>
           </div>
           <div class="font-weight--500 ml--12">
             <span class="mr--4">of</span>
@@ -58,28 +68,21 @@
         </div>
         <div class="display--flex flex-wrap--wrap">
           <button class="btn btn--brand mb--16 mr--16">Normal button</button>
-
           <button class="btn btn--brand btn--outline mb--16 mr--16">Outline button</button>
-
           <button class="btn btn--brand btn--outline btn--transparent mb--16 mr--16">Transparent button</button>
           <button class="btn btn--brand btn--with-icon mb--16 mr--16"><i class="mdi mdi-cart"></i><span>Button with
               icon</span>
-            <button class="btn btn--brand mb--16 mr--16" disabled="disabled">Disabled button</button>
-            <button class="btn btn--brand btn--block mb--16">Block Button</button>
-            <button class="mb--16 btn btn--brand btn--social btn--block btn--fs-16 bg-color--google">
-              <img src="assets/images/google_icon.svg">
-              <span>Google button</span>
-            </button>
-            <button class="btn btn--brand btn--social btn--block btn--fs-16 bg-color--facebook">
-              <img src="assets/images/facebook_icon.svg">
-              <span>Facebook button</span>
-            </button>
-
-
           </button>
-
-
-
+          <button class="btn btn--brand mb--16 mr--16" disabled="disabled">Disabled button</button>
+          <button class="btn btn--brand btn--block mb--16">Block Button</button>
+          <button class="mb--16 btn btn--brand btn--social btn--block btn--fs-16 bg-color--google">
+            <img src="assets/images/google_icon.svg">
+            <span>Google button</span>
+          </button>
+          <button class="btn btn--brand btn--social btn--block btn--fs-16 bg-color--facebook">
+            <img src="assets/images/facebook_icon.svg">
+            <span>Facebook button</span>
+          </button>
         </div>
       </div>
       <div class="mb--40">
@@ -90,7 +93,10 @@
           <div class="form-group">
             <label class="form-group__label required" for="name">Name:</label>
             <div class="input-group">
-              <input data-pristine-pattern="/^[A-Za-z\s]+$/" data-pristine-pattern-message="Only letter accepted" data-pristine-maxlength="50" data-pristine-maxlength-message="This field must be maximum 50 characters" data-pristine-required-message="This field is required" required type="text" class="form-group__form-control input-style" placeholder="Name" id="name">
+              <input data-pristine-pattern="/^[A-Za-z\s]+$/" data-pristine-pattern-message="Only letter accepted"
+                data-pristine-maxlength="50" data-pristine-maxlength-message="This field must be maximum 50 characters"
+                data-pristine-required-message="This field is required" required type="text"
+                class="form-group__form-control input-style" placeholder="Name" id="name">
             </div>
             <div class="form-group__error-messages-wrapper">
             </div>
@@ -98,7 +104,9 @@
           <div class="form-group">
             <label class="form-group__label required" for="email">Email:</label>
             <div class="input-group">
-              <input data-pristine-email-message="Please enter valid e-mail" data-pristine-required-message="This field is required" required type="email" placeholder="Email" class="form-group__form-control input-style" id="email">
+              <input data-pristine-email-message="Please enter valid e-mail"
+                data-pristine-required-message="This field is required" required type="email" placeholder="Email"
+                class="form-group__form-control input-style" id="email">
             </div>
             <div class="form-group__error-messages-wrapper">
             </div>
@@ -106,7 +114,11 @@
           <div class="form-group">
             <label class="form-group__label required" for="password">Password:</label>
             <div class="input-group">
-              <input data-pristine-pattern="/^(?=.*?[A-Z])(?=.*?[0-9]).{8,}$/" data-pristine-pattern-message="Minimum 8 characters, at least one uppercase letter and one number" data-pristine-required-message="This field is required" required type="password" autocomplete="new-password" class="form-group__form-control input-style" id="password" placeholder="Password">
+              <input data-pristine-pattern="/^(?=.*?[A-Z])(?=.*?[0-9]).{8,}$/"
+                data-pristine-pattern-message="Minimum 8 characters, at least one uppercase letter and one number"
+                data-pristine-required-message="This field is required" required type="password"
+                autocomplete="new-password" class="form-group__form-control input-style" id="password"
+                placeholder="Password">
               <i class="mdi mdi-eye input-group__icon input-group__icon--password js-show-password"></i>
             </div>
             <div class="form-group__error-messages-wrapper">
@@ -116,7 +128,11 @@
           <div class="form-group">
             <label class="form-group__label required" for="text">Textarea:</label>
             <div class="input-group">
-              <textarea data-pristine-maxlength="1000" data-pristine-maxlength-message="This field must be maximum 1000 characters" placeholder="Textarea" data-pristine-required-message="This field is required" maxlength="1000" required class="form-group__form-control textarea-style scrollbar-style js-check-character-count" id="text" name="text" id="text" cols="30" rows="10"></textarea>
+              <textarea data-pristine-maxlength="1000"
+                data-pristine-maxlength-message="This field must be maximum 1000 characters" placeholder="Textarea"
+                data-pristine-required-message="This field is required" maxlength="1000" required
+                class="form-group__form-control textarea-style scrollbar-style js-check-character-count" id="text"
+                name="text" id="text" cols="30" rows="10"></textarea>
               <span class="character-count"></span>
             </div>
             <div class="form-group__error-messages-wrapper">
@@ -154,7 +170,10 @@
                   <option value="+234">Brasil +234</option>
                   <option value="+994" selected="selected">Azerbaijan +994</option>
                 </select>
-                <input data-pristine-pattern="/^\d{9}$/" maxlength="9" data-pristine-pattern-message="Please enter valid phone number " data-pristine-required-message="This field is required" name="phoneNumber" class="phone-input js-only-number-mask" placeholder="000000000" required type="text" id="phonenumber">
+                <input data-pristine-pattern="/^\d{9}$/" maxlength="9"
+                  data-pristine-pattern-message="Please enter valid phone number "
+                  data-pristine-required-message="This field is required" name="phoneNumber"
+                  class="phone-input js-only-number-mask" placeholder="000000000" required type="text" id="phonenumber">
               </div>
             </div>
             <div class="form-group__error-messages-wrapper">
@@ -172,7 +191,6 @@
               </label>
             </div>
           </div>
-
         </form>
       </div>
       <div class="mb--40">
@@ -232,20 +250,19 @@
               <div class="product-card__player-wrapper display--flex justify-content--between align-items--center">
                 <div class="product-card__audio audio-player">
                   <audio preload="none" crossorigin playsinline class="js-player">
-                    <source src="https://cdn.plyr.io/static/demo/Kishi_Bashi_-_It_All_Began_With_a_Burst.mp3" type="audio/mp3">
+                    <source src="https://cdn.plyr.io/static/demo/Kishi_Bashi_-_It_All_Began_With_a_Burst.mp3"
+                      type="audio/mp3">
                   </audio>
                 </div>
                 <div class="product-card__video">
-                  <a href="https://www.youtube.com/watch?v=rmGYK93Rhj8&l" class="product-card__youtube-link" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.youtube.com/watch?v=rmGYK93Rhj8&l" class="product-card__youtube-link"
+                    target="_blank" rel="noopener noreferrer">
                     <i class="mdi mdi-youtube icon-style"></i>
                   </a>
                 </div>
               </div>
             </div>
           </div>
-
-
-
         </div>
       </div>
       <div class="mb--40">
@@ -256,9 +273,13 @@
           <div class="col-md-6">
             <div class="shopping-bag-card">
               <div class="shopping-bag-card__header display--flex justify-content--between align-items--center">
-                <h4 class="shopping-bag-card__title font-weight--600 font-family--1">YOUR ORDER</h4>
-                <p class="shopping-bag-card__items-count font-family--2 font-weight--500">2 items in
-                  your bag</p>
+                <h4 class="shopping-bag-card__title font-weight--600 font-family--1">YOUR ORDER (2 items
+                  in
+                  your bag)</h4>
+                <a class="font-weight--500 font-size--12" href="shopping_bag.html">
+                  <i class="mdi mdi-pencil icon-style mr--4"></i>
+                  <span>Edit</span>
+                </a>
               </div>
               <div class="shopping-bag-card__body scrollbar-style">
                 <ul class="product-list">
@@ -321,7 +342,6 @@
             </div>
           </div>
         </div>
-
       </div>
       <div class="mb--40">
         <div class="section-top">
@@ -347,10 +367,9 @@
           </div>
         </div>
       </div>
-  </div></section>
-
-
-
-<script defer="defer" src="assets/js/main.132fdc65f1093e8ef19c.js"></script></body>
+    </div>
+  </section>
+  <script defer src="assets/js/main.132fdc65f1093e8ef19c.js"></script>
+</body>
 
 </html>
